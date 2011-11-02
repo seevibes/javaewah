@@ -6,6 +6,17 @@
     <artifactId>javaewah</artifactId>
     <version>0.3</version>
 
+    <distributionManagement>
+        <repository>
+            <id>repo</id>
+            <url>file:../MavenRepo/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshot-repo</id>
+            <url>file:../MavenRepo/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <properties>
         <maven.compiler.source>1.5</maven.compiler.source>
         <maven.compiler.target>1.5</maven.compiler.target>
